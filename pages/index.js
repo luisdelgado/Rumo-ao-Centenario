@@ -11,22 +11,21 @@ export default function Home() {
 
       <main className={styles.main}>
         <div className={styles.top}>
-          
+          <img src="/oldLogo.jpg" alt="Vercel Logo" className={styles.caririOldLogo} />
         </div>
 
         <div className={styles.bottom}>
-          
+          <h1 className={styles.title}>1921</h1>
         </div>
       </main>
 
       <footer className={styles.footer}>
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href="https://luisdelgado.github.io/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
+          Feito por Luís Delgado
         </a>
       </footer>
     </div>

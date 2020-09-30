@@ -15,15 +15,33 @@
 }
 
 .top {
-  background-color: #fdc400;
+  /* background-color: #fdc400; */
+  background-color: #39230b;
   width: 100%;
   height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.caririOldLogo {
+  width: 120px;
+  height: 200px;
+}
+
+.caririLogo {
+  width: 200px;
+  height: 200px;
 }
 
 .bottom {
-  background-color: #04388b;
+  /* background-color: #04388b; */
+  background-color: #daac73;
   width: 100%;
   height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer {
@@ -60,6 +78,7 @@
   margin: 0;
   line-height: 1.15;
   font-size: 4rem;
+  color: #39230b;
 }
 
 .title,
