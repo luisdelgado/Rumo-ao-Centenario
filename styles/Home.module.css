@@ -20,6 +20,12 @@
   height: 50vh;
 }
 
+.bottom {
+  background-color: #04388b;
+  width: 100%;
+  height: 50vh;
+}
+
 .footer {
   width: 100%;
   height: 100px;
