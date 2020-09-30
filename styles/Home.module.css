@@ -22,16 +22,55 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  animation-name: black;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes black {
+  from {background-color: #39230b;}
+  to {background-color: #04388b;}
 }
 
 .caririOldLogo {
   width: 120px;
   height: 200px;
+  animation-name: oldLogo;
+  animation-duration: 1.5s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+  display: flex;
+  z-index: 10px;
+  margin-left: 40px;
+}
+
+@keyframes oldLogo {
+  from {opacity: 1.0;}
+  to {opacity: 0;}
 }
 
 .caririLogo {
   width: 200px;
   height: 200px;
+  animation-name: logo;
+  animation-duration: 12s;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+  display: flex;
+  margin-left: -165px;
+}
+
+@keyframes logo {
+  from {opacity: 0;}
+  to {opacity: 1.0;}
+}
+
+.middle {
+  background-color: #39230b;
+  width: 100%;
+  height: 20vh;
 }
 
 .bottom {
@@ -42,6 +81,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  animation-name: white;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes white {
+  from {background-color: #daac73;}
+  to {background-color: #fdc400;}
 }
 
 .footer {

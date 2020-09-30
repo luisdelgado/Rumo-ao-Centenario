@@ -12,6 +12,7 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.top}>
           <img src="/oldLogo.jpg" alt="Vercel Logo" className={styles.caririOldLogo} />
+          <img src="/logo.jpg" alt="Vercel Logo" className={styles.caririLogo} />
         </div>
 
         <div className={styles.bottom}>
