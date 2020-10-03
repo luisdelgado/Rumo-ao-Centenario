@@ -15,6 +15,10 @@ export default function Home() {
           <img src="/logo.jpg" alt="Vercel Logo" className={styles.caririLogo} />
         </div>
 
+        <div className={styles.middle}>
+          <img src="/key.svg" alt="Vercel Logo" className={styles.clock} />
+        </div>
+
         <div className={styles.bottom}>
           <h1 className={styles.title}>1921</h1>
         </div>
