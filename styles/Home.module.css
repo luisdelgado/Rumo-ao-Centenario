@@ -55,7 +55,7 @@
   height: 200px;
   animation-name: logo;
   animation-duration: 12s;
-  animation-delay: 10s;
+  animation-delay: 8s;
   animation-fill-mode: forwards;
   opacity: 0;
   display: flex;
@@ -143,4 +143,12 @@
 
 .title {
   text-align: center;
+}
+
+.oldTitle {
+  color: #39230b;
+}
+
+.newTitle {
+  color: #04388b;
 }

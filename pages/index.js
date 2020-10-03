@@ -20,7 +20,8 @@ export default function Home() {
         </div>
 
         <div className={styles.bottom}>
-          <h1 className={styles.title}>1921</h1>
+          <h1 className={styles.title, styles.oldTitle}>1921</h1>
+          <h1 className={styles.title, styles.newTitle}>Rumo ao Centenário</h1>
         </div>
       </main>
 
