@@ -95,7 +95,7 @@
     opacity: 1.0;
   }
   to {
-    margin-left: 42%;
+    margin-left: 45%;
     opacity: 0.0;
   }
 }
@@ -147,8 +147,22 @@
 
 .oldTitle {
   color: #39230b;
+  animation-name: oldLogo;
+  animation-duration: 1.5s;
+  animation-delay: 7s;
+  animation-fill-mode: forwards;
+  display: flex;
+  z-index: 10px;
+  margin-left: 120px;
 }
 
 .newTitle {
   color: #04388b;
+  animation-name: logo;
+  animation-duration: 12s;
+  animation-delay: 8s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+  display: flex;
+  margin-left: -200px;
 }
