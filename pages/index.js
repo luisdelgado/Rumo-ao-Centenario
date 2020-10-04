@@ -2,6 +2,11 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
+  const play = () => {
+    var audio = document.getElementById('hymn');
+    audio.play();
+  }
+
   return (
     <div className={styles.container}>
       <Head>
@@ -12,11 +17,11 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.top}>
           <img src="/oldLogo.jpg" alt="Vercel Logo" className={styles.caririOldLogo} />
-          <img src="/logo.jpg" alt="Vercel Logo" className={styles.caririLogo} />
+          <img src="/logo.jpg" alt="Vercel Logo" className={styles.caririLogo}/>
         </div>
 
         <div className={styles.middle}>
-          <img src="/key.svg" alt="Vercel Logo" className={styles.clock} />
+          <img src="/key.svg" alt="Vercel Logo" className={styles.key} onClick={play}/>
         </div>
 
         <div className={styles.bottom}>
@@ -34,6 +39,10 @@ export default function Home() {
           Feito por Luís Delgado
         </a>
       </footer>
+
+      <audio id="hymn">
+        <source src="/hinoCariri.mp3" type="audio/mpeg" autoPlay/>
+      </audio>
     </div>
   )
 }

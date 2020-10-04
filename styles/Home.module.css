@@ -78,18 +78,19 @@
   animation-fill-mode: forwards;
 }
 
-.clock {
+.key {
   width: 150px;
   height: 150px;
   padding-top: 5px;
   color: grey;
-  animation-name: clockWalk;
+  animation-name: keyWalk;
   animation-duration: 5s;
   animation-delay: 2s;
   animation-fill-mode: forwards;
+  cursor: pointer;
 }
 
-@keyframes clockWalk {
+@keyframes keyWalk {
   from {
     margin-left: 5%;
     opacity: 1.0;
