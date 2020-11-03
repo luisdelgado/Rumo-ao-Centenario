@@ -22,7 +22,7 @@ export default function Home() {
         <meta property="og:title" content="Cariri Olidense" />
         <meta property="og:url" content="https://rumo-ao-centenario.vercel.app/" />
         <meta property="og:description" content="Estudos em Next.js usando o Cariri Olindense como tema." />
-        <meta property="og:image" itemProp="image" content="/favicon.ico" />
+        <meta property="og:image" itemProp="image" content="/favicon.png" />
         <meta property="og:type" content="website" />
         <meta property="og:locale" content="pt_BR" />
       </Head>
