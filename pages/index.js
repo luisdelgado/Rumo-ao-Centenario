@@ -11,14 +11,13 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Rumo ao Centenário</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.png" />
         <meta charSet="utf-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="Página com estudos iniciais em Next.js usando o Cariri Olindense como tema." />
         <meta name="keywords" content="nextjs, javascript, cariri, olinda, frevo" />
         <meta name="author" content="Luís Delgado" />
         <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-        <link rel="icon" href="/favicon.ico"></link>
         <meta property="og:title" content="Cariri Olidense" />
         <meta property="og:url" content="https://rumo-ao-centenario.vercel.app/" />
         <meta property="og:description" content="Estudos em Next.js usando o Cariri Olindense como tema." />
